@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.env
+venv/
+env/
+.venv/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+
+# Django-specific
+*.sqlite3
+media/ # Usually user-uploaded files, you might want to version control this directory but not its contents
+static_cdn/ # Generated static files
+
+# IDE-specific (optional, can be added globally via git config)
+.idea/ # JetBrains IDEs like PyCharm
+.vscode/ # VS Code
+*.swp
+*~
+.DS_Store # macOS files
+
+# OS-specific
+.DS_Store
+.Trash/
+
+# Misc
+*.log
+*.seed
